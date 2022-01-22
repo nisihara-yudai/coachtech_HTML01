@@ -24,7 +24,7 @@
     </section>
 
     <section>
-      p>(h3+span)*6
+      <!-- p>(h3+span)*6
       <h2>会社概要</h2>
       <p>
         <h3>会社名</h3>
@@ -47,19 +47,35 @@
         <h3><span></span></h3>
         <h3><span></span></h3>
         <h3><span></span></h3>
-      </span>
+      </span> -->
 
       <table>
         <tr>
           <th>会社概要</th>
         </tr>
         <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <th>会社名</th>
+          <td>株式会社TECH</td>
+        </tr>
+        <tr>
+          <th>代表者</th>
+          <td>山田 太郎</td>
+        </tr>
+        <tr>
+          <th>所在地</th>
+          <td>東京都渋谷区神宮前</td>
+        </tr>
+        <tr>
+          <th>設立</th>
+          <td>2019/07/19</td>
+        </tr>
+        <tr>
+          <th>従業員</th>
+          <td>100人</td>
+        </tr>
+        <tr>
+          <th>資本金</th>
+          <td>1000万円</td>
         </tr>
       </table>
       
@@ -93,6 +109,31 @@
         <p></p>
       </aside> -->
     </section>
+
+    <section>
+      <h2>お問い合わせ</h2>
+      <form method="post" action="">
+        <div>
+          <label for="#company">会社名</label>
+          <input type="text" id="company">
+        </div>
+        <div>
+          <label for="#name">お名前</label>
+          <input type="text" id="name">
+        </div>
+        <div>
+          <label for="#mail">メールアドレス</label>
+          <input type="email" id="mail">
+        </div>
+        <div>
+          <label for="#contact">お問い合わせ内容</label>
+          <textarea name="contact" id="" cols="30" rows="10"></textarea>
+        </div>
+        <input type="submit" value="お申し込み">
+      </form>
+    </section>
+
+    <footer>&copy;2020 TECH inc.</footer>
   </article>
 </body>
 </html>
